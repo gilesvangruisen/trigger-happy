@@ -1,0 +1,7 @@
+{
+    "description": "Removing main.m from FMDB",
+    "name": "database",
+    "platform_version": "v1.4.35",
+    "uuid": "724841402de911e2b5de12313d31f141",
+    "version": "1.51.6"
+}
