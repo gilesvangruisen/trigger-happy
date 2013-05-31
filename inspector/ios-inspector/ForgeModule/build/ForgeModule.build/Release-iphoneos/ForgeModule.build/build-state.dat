@@ -3,12 +3,12 @@ v5
 r1
 cCheck dependencies
 cProcessPCH /var/folders/vm/hzg_64bj7sl82yhclg5q2t240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ForgeModule-Prefix-ddtwgvykgjgzdnbccukrshlykbez/ForgeModule-Prefix.pch.pth ForgeModule-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/database_API.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/database_API.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMDatabase.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/database_API.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/database_API.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMDatabaseAdditions.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabaseAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMDatabasePool.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabasePool.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMDatabaseQueue.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabaseQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMResultSet.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMResultSet.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMDatabasePool.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabasePool.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLibtool /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/libForgeModule.a normal armv7
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
@@ -258,7 +258,7 @@ s0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf8deb3650659b741^444ce5660659b741^---0#1#0#--18"Check dependencies36"CBE7D8FB-9B51-4532-ADCC-A19E1A50F2F9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb45763d53959b741^be4d7bd53959b741^---0#1#0#--18"Check dependencies36"B0C69C40-8402-4E8D-A9BB-393F2A00B782-
 
 CCompileC build/ForgeModule.build/Release-iphoneos/ForgeModule.build/Objects-normal/armv7/FMDatabase.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391644617.691109

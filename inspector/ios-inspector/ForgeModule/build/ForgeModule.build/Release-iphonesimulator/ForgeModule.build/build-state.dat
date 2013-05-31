@@ -4,11 +4,11 @@ r1
 cCheck dependencies
 cProcessPCH /var/folders/vm/hzg_64bj7sl82yhclg5q2t240000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ForgeModule-Prefix-aubxlmbbtpizxhckhjqjrmpgdoyg/ForgeModule-Prefix.pch.pth ForgeModule-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabase.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabasePool.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabasePool.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabaseAdditions.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabaseAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabaseQueue.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabaseQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/database_API.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/database_API.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabaseAdditions.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabaseAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabasePool.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabasePool.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMResultSet.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMResultSet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabaseQueue.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabaseQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLibtool /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphonesimulator/libForgeModule.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
@@ -254,7 +254,7 @@ s5073348
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdc9c02680659b741^8a3acf680659b741^---0#1#0#--18"Check dependencies36"5B73FF34-89AC-4FAF-8266-3C426B85488F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese54483d63959b741^fe64a0d63959b741^---0#1#0#--18"Check dependencies36"B41C9761-8CFC-4DBA-92C4-4105941F4FDC-
 
 CCompileC build/ForgeModule.build/Release-iphonesimulator/ForgeModule.build/Objects-normal/i386/FMDatabase.o /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/FMDatabase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391643985.660985
