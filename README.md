@@ -16,7 +16,7 @@ forge.internal.call('database.createTables', {
 Takes an array of objects. Each object contains a string `"query"`, and array of strings `["args"]`. If the write was succesfully executed, this call will return the affected ids within an array.
 ```js
 forge.internal.call('database.writeAll', {
-  queries: //insert array of json objects here 
+  queries: //insert array of json objects
 }, success, error);
 ```
 
