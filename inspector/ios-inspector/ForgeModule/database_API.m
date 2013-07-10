@@ -2,8 +2,7 @@
 //  database_API.m
 //  ForgeModule
 //
-//  Created by explhorak on 12/17/12.
-//  Fetchnotes
+//  Created by Alex Horak on 12/17/12.
 //
 
 #import "database_API.h"
@@ -12,7 +11,7 @@
 
 @implementation database_API
 
-// Takes JSONArray that contains strings to construct the database schema
+// Takes an array of sqlite queries to construct the database schema.
 + (void)createTables:(ForgeTask *)task schema:(NSArray *)schema {
     
     // Locate Documents directory and open database.
@@ -36,11 +35,11 @@
     }
     
     [database close];
-    
+
     [task success: nil];
 }
 
-// Takes array of JSON objects with one attribute called query (string), and args (array of strings - only ever be of length 1))
+// Takes an array of objects. Each object contains a string "query", and array of strings ["args"]. If the write was succesfully executed, this call will return the affected ids within an array.
 + (void)writeAll:(ForgeTask *)task queries:(NSArray *)queryStrings {
     
     // Locate Documents directory and open database.
@@ -80,7 +79,7 @@
     [task success: rowIds];
 }
 
-// Selecting multipel single notes by ID's and places all the query results arrays into a larger array which it returns
+// Takes an array of queries and returns the resulting id's in an array.
 + (void)multiQuery:(ForgeTask *)task queries:(NSArray *)queries {
     
     // Locate Documents directory and open database.
@@ -98,7 +97,6 @@
         while ([resultsSet next]) {
             [queryResultsArray addObject:[resultsSet resultDictionary]];
         }
-        // add everything to the larger array
         [multiQueryResultsArray addObject:queryResultsArray];
     }
     [database close];
@@ -107,7 +105,7 @@
 }
 
 
-// Returns the JSON array of note objects that match the passed in query.
+// Returns the JSON array of objects that match the passed in sqlite query.
 + (void)query:(ForgeTask *)task query:(NSString *)query {
     
     // Error handling.
@@ -145,7 +143,7 @@
     [task success:resultsArray];
 }
 
-// Just drops all the tables in database, given an array of tables 
+// Drops the given tables listed in an array of strings.
 + (void)dropTables:(ForgeTask *)task tables:(NSArray *)tables {
     // Locate Documents directory and open database.
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

@@ -1,0 +1,22 @@
+TForgeModuleResources
+v5
+r1
+cCheck dependencies
+cTouch /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/plugin.bundle
+
+N/Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/plugin.bundle
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb98b9cdd637bb741^14759edd637bb741^---0#1#0#--18"Check dependencies36"C54F6AF6-0C92-4125-95A8-F62487EFAE81-
+
+CTouch /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/plugin.bundle
+s393962461.624331
+e393962461.640632
+r1
+xTouch
+x/Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/plugin.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Touch /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/plugin.bundle2767a0dd637bb741^001ba4dd637bb741^---0#0#0#--281"Touch build/Release-iphoneos/plugin.bundle    cd /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule    /usr/bin/touch -c /Users/alexhorak/forge-workspace/plugins/database/inspector/ios-inspector/ForgeModule/build/Release-iphoneos/plugin.bundle36"284A8756-35F1-4907-99E5-1020FBAB49D9-
+
