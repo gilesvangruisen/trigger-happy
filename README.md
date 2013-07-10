@@ -3,20 +3,30 @@ trigger-happy
 Native persistance for HTML5 iOS apps with [Trigger.IO](https://trigger.io/docs/current/api/native_plugins/index.html). Creates an sqlite3 database on the native level and provides abstract CUD methods to be called on the javascript level. Note: trigger-happy is dependent upon [FMDB](https://github.com/ccgus/fmdb).
 
 ##Usage
+No need to include `;` at the end of your sqlite queries.
 
 ###createTables
 Takes an array of sqlite queries to construct the database schema.
 ```js
 forge.internal.call('database.createTables', {
-  schema: //insert array ofsqlite queries to create schema
+  schema: "CREATE TABLE sample(x INTEGER PRIMARY KEY ASC, y, z)"
 }, success, error);
 ```
 
 ###writeAll
-Takes an array of objects. Each object contains a string `"query"`, and array of strings `["args"]`. If the write was succesfully executed, this call will return the affected ids within an array.
+Takes an array of objects. Each object contains a string `"query"`, and array containing a string `["arg"]`. If the write was succesfully executed, this call will return the id's affected within an array.
 ```js
 forge.internal.call('database.writeAll', {
-  queries: //insert array of json objects
+  queries: [
+    {
+      query: 'UPDATE...',
+      args: ['arg']
+    },
+    {
+      query: 'UPDATE...',
+      args: ['arg']
+    }
+  ]
 }, success, error);
 ```
 
@@ -24,7 +34,7 @@ forge.internal.call('database.writeAll', {
 Takes an array of queries and returns the resulting id's in an array.
 ```js
 forge.internal.call('database.multiQuery', {
-  queries: // An array of sqlite queries 
+  queries: ["SELECT...","SELECT..."]
 }, success, error);
 ```
 
@@ -32,7 +42,7 @@ forge.internal.call('database.multiQuery', {
 Returns the JSON array of objects that match the passed in sqlite query.
 ```js
 forge.internal.call('database.query', {
-  query: // Pass in query string
+  query: "SELECT..."
 }, success, error);
 ```
 
@@ -40,7 +50,7 @@ forge.internal.call('database.query', {
 Drops the given tables listed in an array of strings.
 ```js
 forge.internal.call('database.dropTables', {
-  tables: // Pass in array of strings
+  tables: ['table1', 'table2']
 }, success, error);
 ```
 
